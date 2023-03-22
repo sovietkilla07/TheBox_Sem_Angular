@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
 *{
 
     padding: 0;
@@ -15,9 +17,46 @@
     height: 80px;
 }
 
+.logo a {
+
+    font-family: 'Work Sans';
+    text-decoration: none;
+    color: #2947A9;
+    font-weight: 1000;
+    font-size: 30px;
+
+}
+
+.logo a span {
+
+    font-style: italic;
+}
+
 .menu {
 
     display: flex;
     justify-content: space-between;
     width: 600px;
+}
+
+.menu a {
+
+    font-family: 'Work Sans';
+    text-decoration: none;
+    color: #14171F;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.botao-contato a{
+
+    color: #F9995D;
+    font-weight: 600;
+}
+
+.imagem-hero {
+
+    background-image: url("..TheBox/img/Hero.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
