@@ -56,7 +56,5 @@
 
 .imagem-hero {
 
-    background-image: url("..TheBox/img/Hero.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url(../img/hero.png);
 }
