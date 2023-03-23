@@ -54,7 +54,10 @@
     font-weight: 600;
 }
 
-.imagem-hero {
+.banner {
 
+    height: 646px;
     background-image: url(../img/hero.png);
+    background-repeat: no-repeat;
+    
 }
